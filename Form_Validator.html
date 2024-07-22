@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styte.css">
+    <title>ListToDo</title>
+</head>
+<body>
+    <div class="container ">
+        <div class="container-forms">
+            <div class="container-info">
+                <div class="info__item">
+                    <p>Have an account?</p>
+                    <button class="btn"> Login</button>
+                </div>
+                <div class="info__item">
+                    <p>Don't have an account?</p>
+                    <button class="btn">Sign up</button>
+                </div>
+            </div>
+
+            <div class="container-form">
+                <form action="" class="form-item login">
+                    <h1>Login</h1>
+                    <input id="loginUsername" name="Username" type="text" placeholder="Username">
+                    <input type="password" id="loginPassword" name="Password" placeholder="Password">
+                    <div id="loginMessage"></div>
+                    <button class="btn" type="submit" onclick="login(event)">Login</button>
+
+                </form>
+
+                <form action="" class="form-item sign-up">
+                    <h1>Sign up</h1>
+                    <input type="email" id="regEmail" placeholder="Email" name="Email">
+                    <input type="text" id="regFullName" name="Fullname" placeholder="FullName">
+                    <input type="text" id="regUsername" name="Username" placeholder="Username">
+                    <input type="password" id="regPassword" name="Password" placeholder="Password" >
+                    <div id="regMessage"></div>
+                    <button class="btn" type="submit" onclick="register(event)">Sign up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+     <script src="main.js"></script>
+</body>
+</html>

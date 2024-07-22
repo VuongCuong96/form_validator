@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body {
+        
+        background-image: url("girl2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position:center; */
+        background-color: rgb(210, 238, 238);
+        
+    }
+    #logout{
+        font-size: large;
+        border-radius:10%;
+        cursor: pointer;
+    }
+    #logout:hover{
+        color:burlywood;
+        background-color: rgba(0, 0, 0, -5);
+        border: none;
+        transform: scale(10,10);
+        transition: 0.9s;
+    }
+    .container{
+        position: relative;
+        text-align: center;
+        top: 150px;
+        padding: 50px;
+        border-radius: 50px;
+        height: 100%;
+        margin: 0 180px;
+        
+    }
+
+</style>
+   
+    
+</head>
+<body>
+    <div class="container">
+        <h1>WELCOME</h1>
+        <button id="logout" onclick="logout()"> Log out</button>
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
